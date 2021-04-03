@@ -1,0 +1,55 @@
+body{
+    
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    --color-1: #F8F8F8;
+    --color-2: #707070; 
+    --color-3: #1792D2; 
+    --color-4: rgb(20, 55, 116); 
+    text-align: center;
+}
+header{
+    background-color: var(--color-1);
+}
+.site-title{
+
+}
+h1{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+    font-size: 2rem;
+    margin: 0;
+}
+.subtitle{
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--color-3);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+nav li{
+    margin: 1em;
+    
+}
+
+nav a{
+    text-decoration: none;
+    padding: .25em 0;
+}
+
+nav a:hover, nav:focus{
+    color: var(--color-3);
+}
+
+.currect_link{
+    border-bottom: .1em solid var(--color-2);
+}
