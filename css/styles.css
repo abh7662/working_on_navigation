@@ -36,11 +36,12 @@ Layout
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
+    /* border: .1em solid magenta; */
 }
 
 .container-nav {
     display: flex;
-    justify-content: sapace-between;
+    justify-content: space-between;
 }
  
 header {
